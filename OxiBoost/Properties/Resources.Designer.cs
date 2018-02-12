@@ -93,16 +93,6 @@ namespace OxiBoost.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap iconsmall {
-            get {
-                object obj = ResourceManager.GetObject("iconsmall", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap introB {
             get {
                 object obj = ResourceManager.GetObject("introB", resourceCulture);
