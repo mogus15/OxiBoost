@@ -1,4 +1,4 @@
 # OxiBoost
-A tera fps thing. Here have a doggo
+A tera fps thing + doggo
 
-![alt text](https://raw.githubusercontent.com/Purizer/OxiBoost/master/OxiBoost/Resources/doggodancing.gif)
+![alt text](https://raw.githubusercontent.com/Purizer/OxiBoost/master/OxiBoost/readMe/ILikeGifs.gif)
