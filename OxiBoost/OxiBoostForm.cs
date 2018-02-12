@@ -33,7 +33,7 @@ namespace OxiBoost
         {
             animatePanel.Height = HomeB.Height;
             animatePanel.Top = HomeB.Top;
-            
+            logoMe.Image = Properties.Resources.iconpng;
             homeControl1.BringToFront();
         }
 

@@ -35,16 +35,16 @@
             this.label1 = new System.Windows.Forms.Label();
             this.NameLogo = new System.Windows.Forms.Label();
             this.SidePanel = new System.Windows.Forms.Panel();
+            this.logoMe = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.animatePanel = new System.Windows.Forms.Panel();
             this.engineB = new System.Windows.Forms.Button();
             this.HomeB = new System.Windows.Forms.Button();
-            this.Logo = new System.Windows.Forms.PictureBox();
             this.engineControl1 = new OxiBoost.EngineControl();
             this.homeControl1 = new OxiBoost.HomeControl();
             this.TopPanel.SuspendLayout();
             this.SidePanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logoMe)).BeginInit();
             this.SuspendLayout();
             // 
             // TopPanel
@@ -116,18 +116,27 @@
             // SidePanel
             // 
             this.SidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.SidePanel.Controls.Add(this.logoMe);
             this.SidePanel.Controls.Add(this.label2);
             this.SidePanel.Controls.Add(this.animatePanel);
             this.SidePanel.Controls.Add(this.label1);
             this.SidePanel.Controls.Add(this.NameLogo);
             this.SidePanel.Controls.Add(this.engineB);
             this.SidePanel.Controls.Add(this.HomeB);
-            this.SidePanel.Controls.Add(this.Logo);
             this.SidePanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.SidePanel.Location = new System.Drawing.Point(0, 0);
             this.SidePanel.Name = "SidePanel";
             this.SidePanel.Size = new System.Drawing.Size(255, 700);
             this.SidePanel.TabIndex = 0;
+            // 
+            // logoMe
+            // 
+            this.logoMe.Location = new System.Drawing.Point(0, 397);
+            this.logoMe.Name = "logoMe";
+            this.logoMe.Size = new System.Drawing.Size(204, 176);
+            this.logoMe.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.logoMe.TabIndex = 16;
+            this.logoMe.TabStop = false;
             // 
             // label2
             // 
@@ -179,16 +188,6 @@
             this.HomeB.UseVisualStyleBackColor = false;
             this.HomeB.Click += new System.EventHandler(this.HomeB_Click);
             // 
-            // Logo
-            // 
-            this.Logo.Image = global::OxiBoost.Properties.Resources.iconpng;
-            this.Logo.Location = new System.Drawing.Point(0, 441);
-            this.Logo.Name = "Logo";
-            this.Logo.Size = new System.Drawing.Size(256, 256);
-            this.Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.Logo.TabIndex = 7;
-            this.Logo.TabStop = false;
-            // 
             // engineControl1
             // 
             this.engineControl1.BackColor = System.Drawing.Color.White;
@@ -224,7 +223,7 @@
             this.TopPanel.ResumeLayout(false);
             this.SidePanel.ResumeLayout(false);
             this.SidePanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Logo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logoMe)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -232,7 +231,6 @@
         #endregion
         private System.Windows.Forms.Panel TopPanel;
         private System.Windows.Forms.Panel SidePanel;
-        private System.Windows.Forms.PictureBox Logo;
         private System.Windows.Forms.Label NameLogo;
         private System.Windows.Forms.Button engineB;
         private System.Windows.Forms.Button HomeB;
@@ -243,6 +241,7 @@
         private HomeControl homeControl1;
         private System.Windows.Forms.Label label2;
         private EngineControl engineControl1;
+        private System.Windows.Forms.PictureBox logoMe;
     }
 }
 

@@ -62,9 +62,6 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="WinFormAnimation, Version=1.5.6298.3372, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\WinFormAnimation.1.5.6298.3372\lib\net35-client\WinFormAnimation.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bytes.cs" />
@@ -134,7 +131,6 @@
     <EmbeddedResource Include="Video.resx">
       <DependentUpon>Video.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -150,12 +146,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icon.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\iconpng.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\iconsmall.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\doggodancing.gif" />
@@ -177,6 +167,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\iconpng.png" />
+    <None Include="Resources\Image1.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">

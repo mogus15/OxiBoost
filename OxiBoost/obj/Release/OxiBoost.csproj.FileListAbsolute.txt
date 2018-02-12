@@ -1,0 +1,14 @@
+C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\bin\Release\OxiBoost.exe.config
+C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\bin\Release\OxiBoost.exe
+C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\bin\Release\OxiBoost.pdb
+C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\obj\Release\OxiBoost.EngineControl.resources
+C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\obj\Release\OxiBoost.HomeControl.resources
+C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\obj\Release\OxiBoost.OxiBoostForm.resources
+C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\obj\Release\OxiBoost.PartyUI.resources
+C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\obj\Release\OxiBoost.Properties.Resources.resources
+C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\obj\Release\OxiBoost.S1UIControl.resources
+C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\obj\Release\OxiBoost.Video.resources
+C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\obj\Release\OxiBoost.csproj.GenerateResource.Cache
+C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\obj\Release\OxiBoost.csproj.CoreCompileInputs.cache
+C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\obj\Release\OxiBoost.exe
+C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\obj\Release\OxiBoost.pdb
