@@ -11,6 +11,5 @@ Shader Cache - Off
 Texture Filtering filtering - Quality - High performance
 Texture filtering - Trilinear optimization - On
 ```
-![alt text](https://github.com/Purizer/OxiBoost/blob/master/OxiBoost/readMe/nc1.png)
 ![alt text](https://github.com/Purizer/OxiBoost/blob/master/OxiBoost/readMe/nc2.png)
 
