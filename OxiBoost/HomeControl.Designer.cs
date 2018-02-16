@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.label3 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.verNum = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.richQuotes = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,17 +48,17 @@
             this.label3.TabIndex = 17;
             this.label3.Text = "Version";
             // 
-            // label1
+            // verNum
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Font = new System.Drawing.Font("Calibri", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(92)))), ((int)(((byte)(176)))));
-            this.label1.Location = new System.Drawing.Point(534, 558);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 42);
-            this.label1.TabIndex = 18;
-            this.label1.Text = "1.0";
+            this.verNum.AutoSize = true;
+            this.verNum.BackColor = System.Drawing.Color.White;
+            this.verNum.Font = new System.Drawing.Font("Calibri", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.verNum.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(92)))), ((int)(((byte)(176)))));
+            this.verNum.Location = new System.Drawing.Point(517, 558);
+            this.verNum.Name = "verNum";
+            this.verNum.Size = new System.Drawing.Size(81, 42);
+            this.verNum.TabIndex = 18;
+            this.verNum.Text = "1.01";
             // 
             // label2
             // 
@@ -78,34 +78,34 @@
             this.pictureBox1.Image = global::OxiBoost.Properties.Resources.doggodancing;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(600, 600);
+            this.pictureBox1.Size = new System.Drawing.Size(600, 597);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
             // 
-            // label4
+            // richQuotes
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.White;
-            this.label4.Font = new System.Drawing.Font("Calibri", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(92)))), ((int)(((byte)(176)))));
-            this.label4.Location = new System.Drawing.Point(131, 488);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(353, 42);
-            this.label4.TabIndex = 21;
-            this.label4.Text = "Welcome Welcome Bby";
+            this.richQuotes.Enabled = false;
+            this.richQuotes.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richQuotes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(92)))), ((int)(((byte)(176)))));
+            this.richQuotes.Location = new System.Drawing.Point(151, 483);
+            this.richQuotes.Name = "richQuotes";
+            this.richQuotes.Size = new System.Drawing.Size(291, 42);
+            this.richQuotes.TabIndex = 22;
+            this.richQuotes.Text = "";
             // 
             // HomeControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.richQuotes);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.verNum);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox1);
             this.Name = "HomeControl";
             this.Size = new System.Drawing.Size(600, 600);
+            this.Load += new System.EventHandler(this.HomeControl_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -115,9 +115,9 @@
         #endregion
 
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label verNum;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.RichTextBox richQuotes;
     }
 }

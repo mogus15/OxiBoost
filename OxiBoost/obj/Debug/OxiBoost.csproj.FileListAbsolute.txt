@@ -12,3 +12,4 @@ C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\obj\Debug\OxiBoost.EngineControl
 C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\obj\Debug\OxiBoost.S1UIControl.resources
 C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\obj\Debug\OxiBoost.Video.resources
 C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\obj\Debug\OxiBoost.PartyUI.resources
+C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\obj\Debug\OxiBoost.ExternalConfig.resources

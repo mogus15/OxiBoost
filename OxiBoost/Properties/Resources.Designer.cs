@@ -103,6 +103,16 @@ namespace OxiBoost.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ncSettings {
+            get {
+                object obj = ResourceManager.GetObject("ncSettings", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap PartyUI {
             get {
                 object obj = ResourceManager.GetObject("PartyUI", resourceCulture);
@@ -116,6 +126,16 @@ namespace OxiBoost.Properties {
         internal static System.Drawing.Bitmap PartyUI1 {
             get {
                 object obj = ResourceManager.GetObject("PartyUI1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap prioSettings {
+            get {
+                object obj = ResourceManager.GetObject("prioSettings", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

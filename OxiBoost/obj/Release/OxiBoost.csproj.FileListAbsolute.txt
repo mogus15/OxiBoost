@@ -12,3 +12,4 @@ C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\obj\Release\OxiBoost.csproj.Gene
 C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\obj\Release\OxiBoost.csproj.CoreCompileInputs.cache
 C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\obj\Release\OxiBoost.exe
 C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\obj\Release\OxiBoost.pdb
+C:\Users\Skylake\source\repos\OxiBoost\OxiBoost\obj\Release\OxiBoost.ExternalConfig.resources

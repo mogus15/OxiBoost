@@ -269,26 +269,30 @@ namespace OxiBoost
                 video1.Visible = false;
                 partyUI1.SendToBack();
                 partyUI1.Visible = false;
-
+                externalConfig1.SendToBack();
+                externalConfig1.Visible = false;
             }
-
             if (itemSelect.SelectedIndex == 1)
             {
                 s1UIControl1.BringToFront();
                 s1UIControl1.Visible = true;
             }
-
             if (itemSelect.SelectedIndex == 2)
             {
                 video1.BringToFront();
                 video1.Visible = true;
             }
-
             if (itemSelect.SelectedIndex == 3)
             {
                 partyUI1.BringToFront();
                 partyUI1.Visible = true;
             }
+            if (itemSelect.SelectedIndex == 4)
+            {
+                externalConfig1.BringToFront();
+                externalConfig1.Visible = true;
+            }
+
         }
 
         private void FileEngine_Click(object sender, EventArgs e)
@@ -328,6 +332,10 @@ namespace OxiBoost
                 tutPicBox.Image = Resources.introB;
             if (HelpComboBox.SelectedIndex == 3)
                 tutPicBox.Image = Resources.PartyUI1;
+            if (HelpComboBox.SelectedIndex == 4)
+                tutPicBox.Image = Resources.ncSettings;
+            if (HelpComboBox.SelectedIndex == 5)
+                tutPicBox.Image = Resources.prioSettings;
         }
     }
 }

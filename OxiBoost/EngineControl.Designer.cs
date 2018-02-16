@@ -44,6 +44,7 @@
             this.tabHB = new System.Windows.Forms.TabPage();
             this.HelpComboBox = new System.Windows.Forms.ComboBox();
             this.tutPicBox = new System.Windows.Forms.PictureBox();
+            this.externalConfig1 = new OxiBoost.ExternalConfig();
             this.partyUI1 = new OxiBoost.PartyUI();
             this.video1 = new OxiBoost.Video();
             this.s1UIControl1 = new OxiBoost.S1UIControl();
@@ -81,9 +82,7 @@
             // engineBPanel
             // 
             this.engineBPanel.BackColor = System.Drawing.SystemColors.Control;
-            this.engineBPanel.Controls.Add(this.partyUI1);
-            this.engineBPanel.Controls.Add(this.video1);
-            this.engineBPanel.Controls.Add(this.s1UIControl1);
+            this.engineBPanel.Controls.Add(this.externalConfig1);
             this.engineBPanel.Controls.Add(this.Spec);
             this.engineBPanel.Controls.Add(this.labPathEngine);
             this.engineBPanel.Controls.Add(this.pathEngine);
@@ -93,6 +92,9 @@
             this.engineBPanel.Controls.Add(this.FileEngine);
             this.engineBPanel.Controls.Add(this.optiRich);
             this.engineBPanel.Controls.Add(this.currentRich);
+            this.engineBPanel.Controls.Add(this.partyUI1);
+            this.engineBPanel.Controls.Add(this.video1);
+            this.engineBPanel.Controls.Add(this.s1UIControl1);
             this.engineBPanel.Location = new System.Drawing.Point(6, 6);
             this.engineBPanel.Name = "engineBPanel";
             this.engineBPanel.Size = new System.Drawing.Size(482, 556);
@@ -201,7 +203,8 @@
             "Engine",
             "S1UI",
             "Videos ",
-            "Custom UI"});
+            "Custom UI",
+            "External"});
             this.itemSelect.Location = new System.Drawing.Point(494, 6);
             this.itemSelect.Name = "itemSelect";
             this.itemSelect.Size = new System.Drawing.Size(92, 31);
@@ -228,10 +231,13 @@
             "Engine Help",
             "S1UI Help",
             "Videos Help",
-            "Custom UI Help"});
-            this.HelpComboBox.Location = new System.Drawing.Point(473, 6);
+            "Custom UI Help",
+            "[Nvidia] GPU Settings Help",
+            "Prio Settings Help",
+            ""});
+            this.HelpComboBox.Location = new System.Drawing.Point(339, 6);
             this.HelpComboBox.Name = "HelpComboBox";
-            this.HelpComboBox.Size = new System.Drawing.Size(113, 31);
+            this.HelpComboBox.Size = new System.Drawing.Size(247, 31);
             this.HelpComboBox.TabIndex = 22;
             this.HelpComboBox.SelectedIndexChanged += new System.EventHandler(this.HelpComboBox_SelectedIndexChanged_1);
             // 
@@ -243,6 +249,13 @@
             this.tutPicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.tutPicBox.TabIndex = 0;
             this.tutPicBox.TabStop = false;
+            // 
+            // externalConfig1
+            // 
+            this.externalConfig1.Location = new System.Drawing.Point(1, -2);
+            this.externalConfig1.Name = "externalConfig1";
+            this.externalConfig1.Size = new System.Drawing.Size(480, 560);
+            this.externalConfig1.TabIndex = 33;
             // 
             // partyUI1
             // 
@@ -305,5 +318,6 @@
         private Video video1;
         private PartyUI partyUI1;
         private System.Windows.Forms.ComboBox HelpComboBox;
+        private ExternalConfig externalConfig1;
     }
 }

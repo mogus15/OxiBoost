@@ -97,6 +97,12 @@
     <Compile Include="S1UIControl.Designer.cs">
       <DependentUpon>S1UIControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="ExternalConfig.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExternalConfig.Designer.cs">
+      <DependentUpon>ExternalConfig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Video.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -127,6 +133,9 @@
     </Compile>
     <EmbeddedResource Include="S1UIControl.resx">
       <DependentUpon>S1UIControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExternalConfig.resx">
+      <DependentUpon>ExternalConfig.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Video.resx">
       <DependentUpon>Video.cs</DependentUpon>
@@ -167,6 +176,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\prioSettings.gif" />
+    <None Include="Resources\ncSettings.gif" />
+    <None Include="Resources\nc2.png" />
+    <None Include="Resources\nc1.png" />
     <None Include="Resources\iconpng.png" />
     <None Include="Resources\Image1.png" />
   </ItemGroup>
