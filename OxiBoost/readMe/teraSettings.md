@@ -1,4 +1,5 @@
 # Tera Settings
+Pictures of my settings feel free to edit them to your liking.
 ```diff
 Full screen - Enabled
 PC view distance - Enabled
