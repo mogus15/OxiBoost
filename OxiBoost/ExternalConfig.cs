@@ -19,5 +19,10 @@ namespace OxiBoost
         {
             Process.Start("https://www.prnwatch.com/prio");
         }
+
+        private void teraSettings_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://github.com/Purizer/OxiBoost/blob/master/OxiBoost/readMe/teraSettings.md");
+        }
     }
 }

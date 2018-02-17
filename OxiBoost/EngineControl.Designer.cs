@@ -31,6 +31,7 @@
             this.tabEngine = new System.Windows.Forms.TabControl();
             this.tabEB = new System.Windows.Forms.TabPage();
             this.engineBPanel = new System.Windows.Forms.Panel();
+            this.externalConfig1 = new OxiBoost.ExternalConfig();
             this.Spec = new System.Windows.Forms.Label();
             this.labPathEngine = new System.Windows.Forms.Label();
             this.pathEngine = new System.Windows.Forms.Label();
@@ -40,14 +41,13 @@
             this.FileEngine = new System.Windows.Forms.Button();
             this.optiRich = new System.Windows.Forms.RichTextBox();
             this.currentRich = new System.Windows.Forms.RichTextBox();
+            this.partyUI1 = new OxiBoost.PartyUI();
+            this.video1 = new OxiBoost.Video();
+            this.s1UIControl1 = new OxiBoost.S1UIControl();
             this.itemSelect = new System.Windows.Forms.ComboBox();
             this.tabHB = new System.Windows.Forms.TabPage();
             this.HelpComboBox = new System.Windows.Forms.ComboBox();
             this.tutPicBox = new System.Windows.Forms.PictureBox();
-            this.externalConfig1 = new OxiBoost.ExternalConfig();
-            this.partyUI1 = new OxiBoost.PartyUI();
-            this.video1 = new OxiBoost.Video();
-            this.s1UIControl1 = new OxiBoost.S1UIControl();
             this.tabEngine.SuspendLayout();
             this.tabEB.SuspendLayout();
             this.engineBPanel.SuspendLayout();
@@ -82,7 +82,6 @@
             // engineBPanel
             // 
             this.engineBPanel.BackColor = System.Drawing.SystemColors.Control;
-            this.engineBPanel.Controls.Add(this.externalConfig1);
             this.engineBPanel.Controls.Add(this.Spec);
             this.engineBPanel.Controls.Add(this.labPathEngine);
             this.engineBPanel.Controls.Add(this.pathEngine);
@@ -95,10 +94,18 @@
             this.engineBPanel.Controls.Add(this.partyUI1);
             this.engineBPanel.Controls.Add(this.video1);
             this.engineBPanel.Controls.Add(this.s1UIControl1);
+            this.engineBPanel.Controls.Add(this.externalConfig1);
             this.engineBPanel.Location = new System.Drawing.Point(6, 6);
             this.engineBPanel.Name = "engineBPanel";
             this.engineBPanel.Size = new System.Drawing.Size(482, 556);
             this.engineBPanel.TabIndex = 22;
+            // 
+            // externalConfig1
+            // 
+            this.externalConfig1.Location = new System.Drawing.Point(1, -2);
+            this.externalConfig1.Name = "externalConfig1";
+            this.externalConfig1.Size = new System.Drawing.Size(480, 560);
+            this.externalConfig1.TabIndex = 33;
             // 
             // Spec
             // 
@@ -195,6 +202,27 @@
             this.currentRich.TabIndex = 21;
             this.currentRich.Text = "";
             // 
+            // partyUI1
+            // 
+            this.partyUI1.Location = new System.Drawing.Point(2, 2);
+            this.partyUI1.Name = "partyUI1";
+            this.partyUI1.Size = new System.Drawing.Size(480, 560);
+            this.partyUI1.TabIndex = 32;
+            // 
+            // video1
+            // 
+            this.video1.Location = new System.Drawing.Point(2, 2);
+            this.video1.Name = "video1";
+            this.video1.Size = new System.Drawing.Size(480, 560);
+            this.video1.TabIndex = 31;
+            // 
+            // s1UIControl1
+            // 
+            this.s1UIControl1.Location = new System.Drawing.Point(-1, 0);
+            this.s1UIControl1.Name = "s1UIControl1";
+            this.s1UIControl1.Size = new System.Drawing.Size(480, 560);
+            this.s1UIControl1.TabIndex = 30;
+            // 
             // itemSelect
             // 
             this.itemSelect.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -249,34 +277,6 @@
             this.tutPicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.tutPicBox.TabIndex = 0;
             this.tutPicBox.TabStop = false;
-            // 
-            // externalConfig1
-            // 
-            this.externalConfig1.Location = new System.Drawing.Point(1, -2);
-            this.externalConfig1.Name = "externalConfig1";
-            this.externalConfig1.Size = new System.Drawing.Size(480, 560);
-            this.externalConfig1.TabIndex = 33;
-            // 
-            // partyUI1
-            // 
-            this.partyUI1.Location = new System.Drawing.Point(2, 2);
-            this.partyUI1.Name = "partyUI1";
-            this.partyUI1.Size = new System.Drawing.Size(480, 560);
-            this.partyUI1.TabIndex = 32;
-            // 
-            // video1
-            // 
-            this.video1.Location = new System.Drawing.Point(2, 2);
-            this.video1.Name = "video1";
-            this.video1.Size = new System.Drawing.Size(480, 560);
-            this.video1.TabIndex = 31;
-            // 
-            // s1UIControl1
-            // 
-            this.s1UIControl1.Location = new System.Drawing.Point(-1, 0);
-            this.s1UIControl1.Name = "s1UIControl1";
-            this.s1UIControl1.Size = new System.Drawing.Size(480, 560);
-            this.s1UIControl1.TabIndex = 30;
             // 
             // EngineControl
             // 

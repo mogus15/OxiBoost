@@ -117,21 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="richTextBox1.Text" xml:space="preserve">
-    <value>This is optional! Prio a Process Priority Saver! 
-
-Prio can set Tera to a higher priority than other processes on your machine. So while you're playing other process don't hog up your CPU!
-
-Note: Do not set Tera to realtime as that will affect many programs from functioning properly 
-
-1. Download Prio (             ) and restart your computer
-
-2. Open up Tera and leaving it running in the background
-
-3. Open up Task manager (if not already select more details) and head over to the details tab
-
-4. Find Tera.exe right click on it and set CPU priority to "High"</value>
-  </data>
   <data name="gpk.Text" xml:space="preserve">
     <value>Optimize your nvidia program settings for Tera! 
 
@@ -146,5 +131,20 @@ Note: Do not set Tera to realtime as that will affect many programs from functio
 Location (Control Panel): NVIDIA Corporation\Control Panel Client\nvcplui.exe
 
 Location (Tera.exe): TERA\Client\Binaries\tera.exe</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>This is optional! Prio a Process Priority Saver! 
+
+Prio can set Tera to a higher priority than other processes on your machine. So while you're playing other process don't hog up your CPU!
+
+Note: Do not set Tera to realtime as that will affect many programs from functioning properly 
+
+1. Download Prio (             ) and restart your computer
+
+2. Open up Tera and leaving it running in the background
+
+3. Open up Task manager (if not already select more details) and head over to the details tab
+
+4. Find Tera.exe right click on it and set CPU priority to "High"</value>
   </data>
 </root>
