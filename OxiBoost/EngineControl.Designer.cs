@@ -31,7 +31,6 @@
             this.tabEngine = new System.Windows.Forms.TabControl();
             this.tabEB = new System.Windows.Forms.TabPage();
             this.engineBPanel = new System.Windows.Forms.Panel();
-            this.externalConfig1 = new OxiBoost.ExternalConfig();
             this.Spec = new System.Windows.Forms.Label();
             this.labPathEngine = new System.Windows.Forms.Label();
             this.pathEngine = new System.Windows.Forms.Label();
@@ -44,6 +43,7 @@
             this.partyUI1 = new OxiBoost.PartyUI();
             this.video1 = new OxiBoost.Video();
             this.s1UIControl1 = new OxiBoost.S1UIControl();
+            this.externalConfig1 = new OxiBoost.ExternalConfig();
             this.itemSelect = new System.Windows.Forms.ComboBox();
             this.tabHB = new System.Windows.Forms.TabPage();
             this.HelpComboBox = new System.Windows.Forms.ComboBox();
@@ -99,13 +99,6 @@
             this.engineBPanel.Name = "engineBPanel";
             this.engineBPanel.Size = new System.Drawing.Size(482, 556);
             this.engineBPanel.TabIndex = 22;
-            // 
-            // externalConfig1
-            // 
-            this.externalConfig1.Location = new System.Drawing.Point(1, -2);
-            this.externalConfig1.Name = "externalConfig1";
-            this.externalConfig1.Size = new System.Drawing.Size(480, 560);
-            this.externalConfig1.TabIndex = 33;
             // 
             // Spec
             // 
@@ -223,15 +216,19 @@
             this.s1UIControl1.Size = new System.Drawing.Size(480, 560);
             this.s1UIControl1.TabIndex = 30;
             // 
+            // externalConfig1
+            // 
+            this.externalConfig1.Location = new System.Drawing.Point(1, -2);
+            this.externalConfig1.Name = "externalConfig1";
+            this.externalConfig1.Size = new System.Drawing.Size(480, 560);
+            this.externalConfig1.TabIndex = 33;
+            // 
             // itemSelect
             // 
             this.itemSelect.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.itemSelect.FormattingEnabled = true;
             this.itemSelect.Items.AddRange(new object[] {
             "Engine",
-            "S1UI",
-            "Videos ",
-            "Custom UI",
             "External"});
             this.itemSelect.Location = new System.Drawing.Point(494, 6);
             this.itemSelect.Name = "itemSelect";
@@ -257,12 +254,8 @@
             this.HelpComboBox.FormattingEnabled = true;
             this.HelpComboBox.Items.AddRange(new object[] {
             "Engine Help",
-            "S1UI Help",
-            "Videos Help",
-            "Custom UI Help",
             "[Nvidia] GPU Settings Help",
-            "Prio Settings Help",
-            ""});
+            "Prio Settings Help"});
             this.HelpComboBox.Location = new System.Drawing.Point(339, 6);
             this.HelpComboBox.Name = "HelpComboBox";
             this.HelpComboBox.Size = new System.Drawing.Size(247, 31);

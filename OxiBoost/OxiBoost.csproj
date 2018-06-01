@@ -50,6 +50,9 @@
     <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoUpdater.NET, Version=1.4.9.0, Culture=neutral, PublicKeyToken=501435c91b35f4bc, processorArchitecture=MSIL">
+      <HintPath>packages\Autoupdater.NET.Official.1.4.9\lib\net452\AutoUpdater.NET.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Management" />
@@ -140,6 +143,7 @@
     <EmbeddedResource Include="Video.resx">
       <DependentUpon>Video.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -176,10 +180,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\amdsettings.jpg" />
+    <Content Include="version.xml" />
     <None Include="Resources\prioSettings.gif" />
     <None Include="Resources\ncSettings.gif" />
-    <None Include="Resources\nc2.png" />
-    <None Include="Resources\nc1.png" />
     <None Include="Resources\iconpng.png" />
     <None Include="Resources\Image1.png" />
   </ItemGroup>

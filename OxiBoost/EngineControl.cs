@@ -5,6 +5,7 @@ using System.IO;
 using System.Management;
 using System.Text;
 using System.Windows.Forms;
+using AutoUpdaterDotNET;
 
 namespace OxiBoost
 {
@@ -274,25 +275,9 @@ namespace OxiBoost
             }
             if (itemSelect.SelectedIndex == 1)
             {
-                s1UIControl1.BringToFront();
-                s1UIControl1.Visible = true;
-            }
-            if (itemSelect.SelectedIndex == 2)
-            {
-                video1.BringToFront();
-                video1.Visible = true;
-            }
-            if (itemSelect.SelectedIndex == 3)
-            {
-                partyUI1.BringToFront();
-                partyUI1.Visible = true;
-            }
-            if (itemSelect.SelectedIndex == 4)
-            {
                 externalConfig1.BringToFront();
                 externalConfig1.Visible = true;
             }
-
         }
 
         private void FileEngine_Click(object sender, EventArgs e)
@@ -327,14 +312,8 @@ namespace OxiBoost
             if (HelpComboBox.SelectedIndex == 0)
                 tutPicBox.Image = Resources.s1B;
             if (HelpComboBox.SelectedIndex == 1)
-                tutPicBox.Image = Resources.s1UIB;
-            if (HelpComboBox.SelectedIndex == 2)
-                tutPicBox.Image = Resources.introB;
-            if (HelpComboBox.SelectedIndex == 3)
-                tutPicBox.Image = Resources.PartyUI1;
-            if (HelpComboBox.SelectedIndex == 4)
                 tutPicBox.Image = Resources.ncSettings;
-            if (HelpComboBox.SelectedIndex == 5)
+            if (HelpComboBox.SelectedIndex == 2)
                 tutPicBox.Image = Resources.prioSettings;
         }
     }

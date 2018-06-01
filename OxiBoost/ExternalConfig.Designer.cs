@@ -36,13 +36,13 @@
             this.ncSetLink = new System.Windows.Forms.LinkLabel();
             this.gpk = new System.Windows.Forms.RichTextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.prioDL_link = new System.Windows.Forms.LinkLabel();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.teraSettings = new System.Windows.Forms.LinkLabel();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.tabExConfig.SuspendLayout();
             this.graphicsConfig.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -132,16 +132,6 @@
             this.tabPage3.Text = "Radeon";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Calibri", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(132, 202);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(178, 36);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Coming Soon!";
-            // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.prioDL_link);
@@ -191,18 +181,6 @@
             this.tabPage4.Text = "Tera Settings";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // richTextBox2
-            // 
-            this.richTextBox2.BackColor = System.Drawing.Color.Black;
-            this.richTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox2.ForeColor = System.Drawing.Color.White;
-            this.richTextBox2.Location = new System.Drawing.Point(13, 21);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(440, 487);
-            this.richTextBox2.TabIndex = 33;
-            this.richTextBox2.Text = "This can help your overall FPS by turning off video settings you don\'t want.\n\nFol" +
-    "low the link for my settings feel free to tweak them to your liking. \n\nLink: ";
-            // 
             // teraSettings
             // 
             this.teraSettings.AutoSize = true;
@@ -216,6 +194,28 @@
             this.teraSettings.TabStop = true;
             this.teraSettings.Text = "Video Settings";
             this.teraSettings.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.teraSettings_LinkClicked);
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.BackColor = System.Drawing.Color.Black;
+            this.richTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox2.ForeColor = System.Drawing.Color.White;
+            this.richTextBox2.Location = new System.Drawing.Point(13, 21);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(440, 487);
+            this.richTextBox2.TabIndex = 33;
+            this.richTextBox2.Text = "This can help your overall FPS by turning off video settings you don\'t want.\n\nFol" +
+    "low the link for my settings feel free to tweak them to your liking. \n\nLink: ";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Calibri", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(132, 202);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(115, 36);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Click Me";
             // 
             // ExternalConfig
             // 
@@ -251,9 +251,9 @@
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.LinkLabel prioDL_link;
         private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.LinkLabel teraSettings;
         private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.Label label1;
     }
 }

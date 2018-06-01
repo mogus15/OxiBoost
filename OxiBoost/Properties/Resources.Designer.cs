@@ -63,6 +63,16 @@ namespace OxiBoost.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap amdsettings {
+            get {
+                object obj = ResourceManager.GetObject("amdsettings", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap doggodancing {
             get {
                 object obj = ResourceManager.GetObject("doggodancing", resourceCulture);
