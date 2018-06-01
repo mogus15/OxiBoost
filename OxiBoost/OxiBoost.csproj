@@ -67,6 +67,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutoUpdate.cs" />
     <Compile Include="Bytes.cs" />
     <Compile Include="EngineControl.cs">
       <SubType>UserControl</SubType>

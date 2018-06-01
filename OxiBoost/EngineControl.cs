@@ -5,7 +5,6 @@ using System.IO;
 using System.Management;
 using System.Text;
 using System.Windows.Forms;
-using AutoUpdaterDotNET;
 
 namespace OxiBoost
 {
@@ -29,7 +28,6 @@ namespace OxiBoost
             itemSelect.SelectedIndex = 0;
             HelpComboBox.SelectedIndex = 0;
         }
-
         private void match_Replace(string oldTxt, string newTxt)
         {
             if (optiRich.Text.Contains(oldTxt))
@@ -295,6 +293,7 @@ namespace OxiBoost
 
         private void BoostEngine_Click_1(object sender, EventArgs e)
         {
+            AutoUpdater.Start("https://github.com/Purizer/OxiBoost/blob/master/OxiBoost/version.xml");
             GC.Collect();
             var s1e = "S1Engine.ini";
             var s1i = "S1Input.ini";

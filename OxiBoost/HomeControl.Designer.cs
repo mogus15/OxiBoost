@@ -58,7 +58,7 @@
             this.verNum.Name = "verNum";
             this.verNum.Size = new System.Drawing.Size(81, 42);
             this.verNum.TabIndex = 18;
-            this.verNum.Text = "1.01";
+            this.verNum.Text = "1.02";
             // 
             // label2
             // 
