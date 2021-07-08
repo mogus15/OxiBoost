@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7EEE2A2D-B746-4945-A04C-7A335D97CD74}</ProjectGuid>
+    <ProjectGuid>{E3481DE9-008C-453F-8E1C-0868065C749A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>OxiBoost</RootNamespace>
-    <AssemblyName>OxiBoost</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Oxiboost</RootNamespace>
+    <AssemblyName>Oxiboost</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -49,13 +50,24 @@
   <PropertyGroup>
     <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AutoUpdater.NET, Version=1.4.9.0, Culture=neutral, PublicKeyToken=501435c91b35f4bc, processorArchitecture=MSIL">
-      <HintPath>packages\Autoupdater.NET.Official.1.4.9\lib\net452\AutoUpdater.NET.dll</HintPath>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
     </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Management" />
+    <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -67,63 +79,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AutoUpdate.cs" />
-    <Compile Include="Bytes.cs" />
-    <Compile Include="EngineControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="EngineControl.Designer.cs">
-      <DependentUpon>EngineControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="HomeControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="HomeControl.Designer.cs">
-      <DependentUpon>HomeControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="OxiBoostForm.cs">
+    <Compile Include="Helpers\Cleaner.cs" />
+    <Compile Include="Helpers\Optimize.cs" />
+    <Compile Include="Helpers\Specs.cs" />
+    <Compile Include="Helpers\Finder.cs" />
+    <Compile Include="Helpers\Utilities.cs" />
+    <Compile Include="OxiboostForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OxiBoostForm.Designer.cs">
-      <DependentUpon>OxiBoostForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PartyUI.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="PartyUI.Designer.cs">
-      <DependentUpon>PartyUI.cs</DependentUpon>
+    <Compile Include="OxiboostForm.Designer.cs">
+      <DependentUpon>OxiboostForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="S1UIControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="S1UIControl.Designer.cs">
-      <DependentUpon>S1UIControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ExternalConfig.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="ExternalConfig.Designer.cs">
-      <DependentUpon>ExternalConfig.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Video.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Video.Designer.cs">
-      <DependentUpon>Video.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="EngineControl.resx">
-      <DependentUpon>EngineControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="HomeControl.resx">
-      <DependentUpon>HomeControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OxiBoostForm.resx">
-      <DependentUpon>OxiBoostForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PartyUI.resx">
-      <DependentUpon>PartyUI.cs</DependentUpon>
+    <EmbeddedResource Include="OxiboostForm.resx">
+      <DependentUpon>OxiboostForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -133,17 +103,8 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="S1UIControl.resx">
-      <DependentUpon>S1UIControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ExternalConfig.resx">
-      <DependentUpon>ExternalConfig.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Video.resx">
-      <DependentUpon>Video.cs</DependentUpon>
-    </EmbeddedResource>
+    <None Include="app.manifest" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -159,39 +120,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\icon.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\doggodancing.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\PartyUI.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\introB.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\PartyUI.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\s1B.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\s1UIB.gif" />
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
-    <None Include="Resources\amdsettings.jpg" />
-    <Content Include="version.xml" />
-    <None Include="Resources\prioSettings.gif" />
-    <None Include="Resources\ncSettings.gif" />
-    <None Include="Resources\iconpng.png" />
-    <None Include="Resources\Image1.png" />
+    <Content Include="Images\icon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
       <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">

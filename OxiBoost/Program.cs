@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Forms;
-using AutoUpdaterDotNET;
 
-namespace OxiBoost
+namespace Oxiboost
 {
     static class Program
     {
@@ -14,8 +16,7 @@ namespace OxiBoost
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new OxiBoostForm());
-            AutoUpdater.CheckForUpdateEvent += AutoUpdate.AutoUpdaterOnCheckForUpdateEvent;
+            Application.Run(new OxiboostForm());
         }
     }
 }

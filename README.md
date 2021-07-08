@@ -1,3 +1,19 @@
-# OxiBoost
-A tera fps thing + doggo | [Download v1.01](https://github.com/Purizer/OxiBoost/raw/master/Download/OxiBoost.zip) | [![Discord](https://discordapp.com/api/guilds/412673009644732426/widget.png)](https://discord.gg/nThCDWD)
-![alt text](https://raw.githubusercontent.com/Purizer/OxiBoost/master/OxiBoost/readMe/ILikeGifs.gif)
+# OxiBoost 
+A tera fps thing I think... (64 bit update). 
+
+Also... Increase performance of windows/games etc, gain disk space back and disable services :)
+
+Tera files to browse for:
+* Tera\Client\S1Game\Config\S1SystemSettings.ini
+* Tera\Client\S1Game\Config\S1Input.ini
+
+Nvidia Control Panel Settings
+* https://github.com/Purizer/OxiBoost/blob/master/OxiBoost/readMe/ncSettings.md
+
+Tera Settings
+* https://github.com/Purizer/OxiBoost/blob/master/OxiBoost/readMe/teraSettings.md
+
+Looking for something with way more indepth? Use tera toolbox + fps manager.
+
+* **toolbox**: https://github.com/tera-toolbox/tera-toolbox
+* **fps manager**: https://github.com/SaltyMonkey/fps-manager

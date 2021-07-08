@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace OxiBoost.Properties
+namespace Oxiboost.Properties
 {
 
 

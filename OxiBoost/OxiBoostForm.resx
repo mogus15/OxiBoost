@@ -117,6 +117,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Here are applications that I personally use and would recommend to someone looking to either monitor their hardware, clean up their pc or boost their game performance. Are these the best applications? No/Maybe? The point of this tab is to share what I use in the event you want to try other options.
+
+What's Prio? Process Priority Saver essentially allows you to set a process to higher priority then another process. Example two processes are fighting over cpu time... One is a game you're playing and the other is windows updates so if you were to set higher priority to your game than cpu time would be used for your game instead of windows updates. 
+
+More info on process priorty here: https://chefkochblog.wordpress.com/2018/02/27/does-changing-process-priority-have-any-effect-on-game-or-application-performance/
+
+What is CCleaner? Small tool that allows you to clean out junk files, temporary files, broken shortcuts or even fix registry problems. This program can save you hard drive space and speed up your windows performance.
+
+What is HWMonitor? The name gives it away (Hardware Monitor). This is a tool that allows you to view temperature, voltage, hardware utilization and fan speeds.
+
+What is Razer Cortex? Is another optimizer tool similar to CCleaner but made for gamers. It's probably one I'd recommend to someone that has a lot of applications installed on their computer otherwise it's pretty useless. Razer Cortex has a cool feature called "game booster" that stops processes/apps from running while you're gaming. This can free up resources such as ram or cpu for better performance ingame.
+
+Razer Cortex also has a historical FPS tracker so you can see where you dipped in fps during your game session for possible help when troubleshooting.</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
