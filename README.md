@@ -1,5 +1,5 @@
 # OxiBoost 
-A tera fps thing I think... (64 bit update). 
+A tera fps thing I think... (64 bit update). **[Download](https://github.com/Purizer/OxiBoost/raw/master/Download/OxiBoost.zip)** 
 
 Additionally... Increase performance of windows/games etc, gain disk space back and disable services :)
 
