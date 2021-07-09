@@ -13,8 +13,8 @@ Optimizer for Tera and Windows
 * Empty Recycle Bin
 * Clear Media Player Cache
 * Clear uTorrent Cache
-* Disable unnecessary Windows services
-* Disable Windows telemetry
+* Disable Unnecessary Windows services
+* Disable Windows Telemetry
 * Disable Office telemetry (works only with Office 2016)
 * Disable Cortana
 * Disable Windows 10 automatic updates
