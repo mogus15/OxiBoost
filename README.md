@@ -1,8 +1,8 @@
-## Summary: ##
+## Summary:
 
 Optimizer for Tera and Windows
 
-## Features: ##
+## Features:
 
 * Automatically find TERA game files
 * Clean Temp Files
@@ -39,6 +39,6 @@ https://github.com/Purizer/OxiBoost/raw/master/Download/OxiBoost.zip
 ## Thanks to: 
 * https://github.com/hellzerg
 
-## Other Options
+## Other Options:
 
 TERA tweaks not working for? Use [tera-toolbox](https://github.com/tera-toolbox/tera-toolbox) and install the [fps manager module](https://github.com/SaltyMonkey/fps-manager).
