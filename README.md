@@ -30,6 +30,10 @@ Optimizer for Tera and Windows
 ## Download: 
 https://github.com/Purizer/OxiBoost/raw/master/Download/OxiBoost.zip
 
+## NVIDIA & TERA Settings
+* NVIDIA: https://github.com/Purizer/OxiBoost/blob/master/OxiBoost/readMe/ncSettings.md
+* TERA: https://github.com/Purizer/OxiBoost/blob/master/OxiBoost/readMe/teraSettings.md
+
 ## Compatibility: 
 
 * [.NET Framework 4.7.2](https://dotnet.microsoft.com/download/dotnet-framework)
