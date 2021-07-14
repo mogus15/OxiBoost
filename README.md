@@ -45,4 +45,4 @@ https://github.com/Purizer/OxiBoost/raw/master/Download/OxiBoost.zip
 
 ## Other Options:
 
-TERA tweaks not working for? Use [tera-toolbox](https://github.com/tera-toolbox/tera-toolbox) and install the [fps manager module](https://github.com/SaltyMonkey/fps-manager).
+TERA tweaks not working? Use [tera-toolbox](https://github.com/tera-toolbox/tera-toolbox) and install the [fps manager module](https://github.com/SaltyMonkey/fps-manager).
