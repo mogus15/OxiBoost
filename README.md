@@ -34,7 +34,7 @@ https://github.com/Purizer/OxiBoost/raw/master/Download/OxiBoost.zip
 * NVIDIA: https://github.com/Purizer/OxiBoost/blob/master/OxiBoost/readMe/ncSettings.md
 * TERA: https://github.com/Purizer/OxiBoost/blob/master/OxiBoost/readMe/teraSettings.md
 
-## Acceptable Config Paths
+## Acceptable TERA Config Paths
 * `TERA\Client\S1Game\Config\S1SystemSettings.ini`
 * `TERA\Client\S1Game\Config\S1Input.ini`
 
